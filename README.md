@@ -1,1 +1,1 @@
-Zwave hub to manage home sensors.
+Z-Wave hub managing home sensors.
