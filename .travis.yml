@@ -1,5 +1,8 @@
 language: rust
 
+compiler:
+ - gcc-4.9
+
 addons:
  apt:
   sources:
