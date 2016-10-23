@@ -1,0 +1,7 @@
+[package]
+name = "domus"
+version = "0.1.0"
+authors = ["avaleri"]
+
+[dependencies]
+openzwave = "0.1.1"
