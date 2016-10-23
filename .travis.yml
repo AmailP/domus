@@ -1,6 +1,6 @@
 language: rust
 
-addon:
+addons:
  apt:
   packages:
   - libudev-dev
