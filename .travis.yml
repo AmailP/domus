@@ -1,8 +1,11 @@
 language: rust
 
-dist: trusty
-
 addons:
  apt:
+  sources:
+  - ubuntu-toolchain-r-test  // Needed for gcc-4.9
   packages:
+  - gcc-4.9
+  - g++-4.9                  // Needed for C++11
   - libudev-dev
+
