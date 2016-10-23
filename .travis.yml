@@ -1,7 +1,7 @@
 language: rust
 
-compiler:
- - gcc-4.9
+env:
+ - CXX=gcc-4.9
 
 addons:
  apt:
