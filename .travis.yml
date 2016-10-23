@@ -3,9 +3,8 @@ language: rust
 addons:
  apt:
   sources:
-  - ubuntu-toolchain-r-test  // Needed for gcc-4.9
+  - ubuntu-toolchain-r-test
   packages:
-  - gcc-4.9
-  - g++-4.9                  // Needed for C++11
+  - g++-4.9
   - libudev-dev
 
